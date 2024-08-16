@@ -1,0 +1,7 @@
+public class countcharacters{
+    public static void main(String []args) {
+        String x="Hello World";
+        int length=x.length();
+        System.out.println("Total characters: "+length);
+    }
+}

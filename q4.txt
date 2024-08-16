@@ -1,0 +1,11 @@
+public class  methods_std{
+    public static void main(String []args){
+        int x=36;
+        String k="ABCde";
+        System.out.println(Math.sqrt(x));
+        System.out.println(k.toUpperCase());
+        System.out.println(k.toLowerCase());
+        System.out.println(k.length());
+    }    
+
+}

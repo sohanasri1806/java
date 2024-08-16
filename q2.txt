@@ -1,0 +1,13 @@
+public class multiple_Obj{
+    int x=9;
+    int y=13;
+    int z=76;
+    public static void main(String []args) {
+        multiple_Obj Obj1=new multiple_Obj();
+        multiple_Obj Obj2=new multiple_Obj();
+        multiple_Obj Obj3=new multiple_Obj();
+        System.out.println(Obj1.x);
+        System.out.println(Obj1.y);
+        System.out.println(Obj1.z);
+    }
+}

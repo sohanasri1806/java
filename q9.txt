@@ -1,0 +1,19 @@
+public class prime{
+    public static void prime(int x){
+        int count=0,i;
+        for (i=2;i<x;i++){
+            if (x%i==0){
+                count+=1;
+            }
+        }
+        if (count==0)
+        {System.out.println("Is prime");}
+        else{
+            System.out.println("Not prime");
+        }
+    }
+    public static void main(String []args){
+        int a=13;
+        prime(a);
+    }
+}
